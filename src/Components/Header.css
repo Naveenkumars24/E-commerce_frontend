@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Header{
+    color: rgb(255, 255, 255) ;
+    height: 10vh;
+    background-color: #A1B0AB;
+    display: flex;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+}
+.Header h1{
+    margin-left: 3%;
+}
+.Header-links a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.Header-links{
+    margin-left: 60%;
+    margin-right: 10px;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+.Header-cart{
+    margin-left: 25px;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    gap: 20px;
+}
